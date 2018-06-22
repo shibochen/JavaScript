@@ -19,6 +19,6 @@ var regExp = new RegExp("pattern", "flags")
 
 
 Reference:
-1. [The Modern JavaScript Tutorial] (https://javascript.info/)
-2. [JavaScript Standards Reference Guide] (http://javascript.ruanyifeng.com/)
-3. [MDN web docs: Regular Expressions] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [The Modern JavaScript Tutorial](https://javascript.info/).
+- [JavaScript Standards Reference Guide](http://javascript.ruanyifeng.com/).
+- [MDN web docs: Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
