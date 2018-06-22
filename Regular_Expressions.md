@@ -16,7 +16,8 @@ Two: calling the constructor function of the `RegExp` object, as follows:
 ```
 var regExp = new RegExp("pattern", "flags")
 ```
-
+## Methods of RegExp and String
+![capture](https://user-images.githubusercontent.com/38870192/41758407-6917d156-75b6-11e8-8c57-dd1bf764b38a.PNG)
 
 Reference:
 - [The Modern JavaScript Tutorial](https://javascript.info/).
