@@ -33,3 +33,4 @@
 
 ## Reference
 [原码， 反码，补码]{https://blog.csdn.net/shenhaiwen/article/details/79001039}
+[Java位运算原理及使用讲解]{https://blog.csdn.net/goskalrie/article/details/52796360}
