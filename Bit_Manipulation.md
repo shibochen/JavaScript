@@ -18,6 +18,18 @@
 ## Bitwise Operators(位运算符号)
 ![capture](https://user-images.githubusercontent.com/38870192/41815560-ba5d6bfc-773c-11e8-9793-74ae14d2bf4c.PNG)
 
+左移： 比如 1 -- 0001  每一位都是乘 2， 右移： 每移一位都是除以2
+     
+无符号右移>>> :不管正负标志位为0还是1，将该数的二进制码整体右移，左边部分总以0填充，右边部分舍弃。
+
+## 常考技巧
+1. 判断是否为2的倍数：  n & （n - 1） == 0
+2. 判断奇偶数： n & 1 （返回 1 表示奇数， 0 表示偶数）
+
+## 面试题型分析
+1. XOR
+2. 移位
+3. 数据量过小/过大： 过小（Bit（方向））， 过大（Bit Map/ Bit Set）
 
 ## Reference
 - [原码， 反码，补码](https://blog.csdn.net/shenhaiwen/article/details/79001039)
