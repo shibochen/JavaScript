@@ -16,6 +16,7 @@
 
 
 ## Bitwise Operators(位运算符号)
+![capture](https://user-images.githubusercontent.com/38870192/41815560-ba5d6bfc-773c-11e8-9793-74ae14d2bf4c.PNG)
 
 
 ## Reference
