@@ -1,4 +1,7 @@
 # Notes
+- A single `<script>` tag can’t have both the `src` attribute and the code inside.
+- There are 7 basic types in javaScript: number, string, boolean, null, undefined, object, symbol.
+- The `typeof` operator allows to see which type is stored in the variable.
 ## 'var' variable
 1. `var` has no block scope: variables either function-wide or global, they are visible through blocks;
 2. if a code block is inside a function, then `var` become function-level variable.
