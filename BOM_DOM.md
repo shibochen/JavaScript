@@ -1,4 +1,7 @@
 # DOM
+## document对象
+- 常用属性： URL， title
+- 时钟补充： setTimeout, setInterval, clearInterval(), clearTimeout();
 
 ## 42: 鼠标事件对象（接口） MouseEvent
 - MouseEvent继承来自UIEvent， UIEvent继承自Event
