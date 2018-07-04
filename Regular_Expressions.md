@@ -1,6 +1,6 @@
 # Regular Expression
 
-Regular expression is a powerful way of searching and replacing inside a string.
+`Regular expression` is a powerful way of searching and replacing inside a string.
 
 A regular expression consists of a pattern and optional flags: g, i, m, u, y.
 
