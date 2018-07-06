@@ -1,7 +1,14 @@
 # DOM
 ## document对象
-- 常用属性： URL， title
-- 时钟补充： setTimeout, setInterval, clearInterval(), clearTimeout();
+- 常用属性： `URL`， `title`
+- 时钟补充： `setTimeout`, `setInterval`, `clearInterval()`, `clearTimeout()`;
+
+## 访问节点
+- `getElementById(id)`: 返回Element对象
+- `getElementsByTagName(tagName)`: 返回HTMLCollection对象
+- `getElementsByName(name)`: 返回NodeList对象
+- `querySelector(selectors)`: 返回Element对象
+- `querySelectorAll(selectors)`: 返回NodeList对象
 
 ## 42: 鼠标事件对象（接口） MouseEvent
 - MouseEvent继承来自UIEvent， UIEvent继承自Event
@@ -24,5 +31,15 @@ Question： 区别以上clientX， pageX， screenX 等
 - keydown和keyup都是通过事件对象的keyCode获取按下键的字符编码. keypress是通过事件对象的charCode来获取按下键的字符码
 （ie8 可以通过keyCode获取）
 - 键盘事件的对象也包括shiftKey, ctrlKey, altKey和metaKey 属性
-- 键盘分为 可以打印的字符串和不可打印的功能键
-- change事件
+- 键盘分为：可以打印的字符串和不可打印的功能键
+- change事件 （当失去焦点后触发）
+
+## 事件高级 （52 ！important）
+- 事件绑定封装
+- 事件对象封装
+- 文档加载完成封装
+- 事件委托（？）
+
+## 元素样式操作（61）
+- 内联样式 （`Element.style` ,  `Element.style.cssText`, `Element.className`, `Element.setAttribute`）
+- 样式表操作 （动态添加样式表）
