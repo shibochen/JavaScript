@@ -1,9 +1,9 @@
 # DOM
-## document对象
+## document对象 （2）
 - 常用属性： `URL`， `title`
 - 时钟补充： `setTimeout`, `setInterval`, `clearInterval()`, `clearTimeout()`;
 
-## 访问节点
+## 访问节点（6）
 - `getElementById(id)`: 返回Element对象
 - `getElementsByTagName(tagName)`: 返回HTMLCollection对象
 - `getElementsByName(name)`: 返回NodeList对象
@@ -13,7 +13,22 @@
 接口：有自己规定的方法，属性，但必须有子类给他实现
 类型：可以直接创建实例
 
- 鼠标事件对象（接口） MouseEvent
+## HTMLCollection元素对象（接口）（9）
+- 元素的动态集合，提供用来从该集合中选择元素的方法和属性。当其所包含的文档结构发生改变时，它会自动更新，不是真正的数组，是伪数组。
+- 常用属性 (`HTMLCollection.length`)
+- 常用方法 （`HTMLCollection.item()`, `HTMLCollection.namedItem()`, Array.prototype.slice.call(c)）
+
+## NodeList对象节点集合（11）
+- NodeList对象是一个节点的集合, 伪数组
+- 常用属性 （`length`）
+- 常用方法 （`NodeList.item()`, Array.prototype.slice.call(c)）
+
+- 注意
+   - 不要用`for in`进行循环，因为会把length和item也被访问到，所以最好用索引进行循环遍历
+   - `querySelectorAll` 返回的NodeList是一个固定的集合，不会随着变化而变
+   - Node节点的childNodes属性是实时动态的更新
+   
+## 鼠标事件对象（接口） MouseEvent
 - MouseEvent继承来自UIEvent， UIEvent继承自Event
 - 鼠标事件对象中包括： 鼠标按键信息，键盘配合鼠标信息，鼠标的位置信息等
 
