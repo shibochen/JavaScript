@@ -70,6 +70,15 @@ Question： 区别以上clientX， pageX， screenX 等
 - 文档加载完成封装
 - 事件委托（？）
 
+## Node接口
+- Node接口是对节点的封装，继承字EventTarget
+- 常用属性：（`nodeType`, `nodeName`, `nodeValue`）
+- 节点关系：（`Node.childNotes`, `Node.firstChild`, `Node.lastChild`, `Node.nextSibling`, `Node.previousSibling`, 
+`Node.parentNode`,`Node.parentElement`）
+- 常用方法： （`Node.appendChild`, `Node.insertBefore`, `Node.removeChild`, `Node.hasChildNodes`,`Node.cloneNode(deep)` ）
+   - deep：两个值：true 或者 false， true完全复制，false部分复制
+- 创建节点：（`document.createElement`,`document.createAttribute`, `document.createComment`, `document.createTextNode`）
+
 ## 元素样式操作（61）
 - 内联样式 （`Element.style` ,  `Element.style.cssText`, `Element.className`, `Element.setAttribute`）
 - 样式表操作 （动态添加样式表）
