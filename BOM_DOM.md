@@ -10,7 +10,10 @@
 - `querySelector(selectors)`: 返回Element对象
 - `querySelectorAll(selectors)`: 返回NodeList对象
 
-## 42: 鼠标事件对象（接口） MouseEvent
+接口：有自己规定的方法，属性，但必须有子类给他实现
+类型：可以直接创建实例
+
+ 鼠标事件对象（接口） MouseEvent
 - MouseEvent继承来自UIEvent， UIEvent继承自Event
 - 鼠标事件对象中包括： 鼠标按键信息，键盘配合鼠标信息，鼠标的位置信息等
 
