@@ -41,6 +41,10 @@
 - 事件绑定事件（DOM2）
    - addEventListener(type, listen,useCapture)
    - removeEventListener(type,listen,useCapture);
+ - IE浏览器绑定和解绑事件attachEvent (IE8以前)
+   - attachEvent(on + 事件类型字符，函数/匿名函数)
+   - detachEvent(跟上面一样)
+   - 只能在冒泡阶段触发
  DOM0：只能绑定一个事件，只能在冒泡阶段触发，兼容性好
  DOM2: 可以多绑定事件，可以选择在捕获或者冒泡阶段触发，兼容性不好
    
