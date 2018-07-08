@@ -52,15 +52,15 @@
    - addEventListener的事件响应方法执行顺序跟注册顺序一致
    - attachEvent注册的事件响应方法的执行顺序不确定，执行过程不能依赖它的注册顺序
 ## 事件对象（25）
--DOM事件触发时，会产生一个事件对象Event，封装事件相关信息：事件源对象，事件类型，事件处理方法
+- DOM事件触发时，会产生一个事件对象Event，封装事件相关信息：事件源对象，事件类型，事件处理方法
 - 常用属性
- - Event.target 事件源对象， IE6-IE8 Event.srcElement
- - Event.type 事件类型
- - Event.cancelBubble 取消事件冒泡（IE以下）
- - Event.returnValue 布尔类型，false阻止默认行为
+   - Event.target 事件源对象， IE6-IE8 Event.srcElement
+   - Event.type 事件类型
+   - Event.cancelBubble 取消事件冒泡（IE以下）
+   - Event.returnValue 布尔类型，false阻止默认行为
 - 常用方法
- - 阻止默认行为 Event.stopDefault(), IE不能用， 事件响应方法returnValue = false
- - 阻止事件冒泡 Event.stopPropagation(), IE不能用， 用cancleBubble = true;
+   - 阻止默认行为 Event.stopDefault(), IE不能用， 事件响应方法returnValue = false
+   - 阻止事件冒泡 Event.stopPropagation(), IE不能用， 用cancleBubble = true;
    
 ## 鼠标事件对象（接口） MouseEvent
 - MouseEvent继承来自UIEvent， UIEvent继承自Event
