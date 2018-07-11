@@ -9,7 +9,7 @@ Numeric conversion rules:
 Boolean conversion rules:
 ![capture1](https://user-images.githubusercontent.com/38870192/41947831-ea56e9a8-7987-11e8-8440-6b177893e20e.PNG)
 
-## 'var' variable
+## `var` variable
 1. `var` has no block scope: variables either function-wide or global, they are visible through blocks;
 2. if a code block is inside a function, then `var` become function-level variable.
 3. variable declarations are processed at funciton start, but assignments are not.
