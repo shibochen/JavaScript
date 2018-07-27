@@ -30,7 +30,7 @@ character classes inside square brackets `[...]`
 
 ## Escaping, special characters
 
-`escaping a character`: to use a special character as a regular one, prepend it with a backslash.
+`escaping a character`: to use a special character as a regular one, prepend it with a backslash (\).
 
 ## Quantifiers +, *, ? and {n}
 Quantity {n}
