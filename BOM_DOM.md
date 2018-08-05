@@ -1,5 +1,5 @@
 # DOM
-## document对象 （2）
+## document对象
 - 常用属性： `URL`， `title`
 - 时钟补充： `setTimeout`, `setInterval`, `clearInterval()`, `clearTimeout()`;
 
