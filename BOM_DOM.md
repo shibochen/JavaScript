@@ -3,7 +3,7 @@
 - 常用属性： `URL`， `title`
 - 时钟补充： `setTimeout`, `setInterval`, `clearInterval()`, `clearTimeout()`;
 
-## 访问节点（6）
+## 访问节点
 - `getElementById(id)`: 返回Element对象
 - `getElementsByTagName(tagName)`: 返回HTMLCollection对象
 - `getElementsByName(name)`: 返回NodeList对象
@@ -14,12 +14,12 @@
 
 类型：可以直接创建实例
 
-## HTMLCollection元素对象（接口）（9）
+## HTMLCollection元素对象（接口）
 - 元素的动态集合，提供用来从该集合中选择元素的方法和属性。当其所包含的文档结构发生改变时，它会自动更新，不是真正的数组，是伪数组。
 - 常用属性 (`HTMLCollection.length`)
 - 常用方法 （`HTMLCollection.item()`, `HTMLCollection.namedItem()`, Array.prototype.slice.call(c)）
 
-## NodeList对象节点集合（11）
+## NodeList对象节点集合
 - NodeList对象是一个节点的集合, 伪数组
 - 常用属性 （`length`）
 - 常用方法 （`NodeList.item()`, Array.prototype.slice.call(c)）
@@ -29,7 +29,7 @@
    - `querySelectorAll` 返回的NodeList是一个固定的集合，不会随着变化而变
    - Node节点的childNodes属性是实时动态的更新
    
-## 事件（12）
+## 事件
 - 事件绑定事件（DOM0）
    - 第一种: 直接在HTML中给标签添加事件属性
    - 通过JS代码给元素添加事件属性 （兼容性好，但一个标签只能绑定一次事件响应方法）
@@ -51,7 +51,7 @@
    - 设置标签的事件属性或者直接给元素设置事件属性的最优先执行（带有确定）
    - addEventListener的事件响应方法执行顺序跟注册顺序一致
    - attachEvent注册的事件响应方法的执行顺序不确定，执行过程不能依赖它的注册顺序
-## 事件对象（25）
+## 事件对象
 - DOM事件触发时，会产生一个事件对象Event，封装事件相关信息：事件源对象，事件类型，事件处理方法
 - 常用属性
    - Event.target 事件源对象， IE6-IE8 Event.srcElement
