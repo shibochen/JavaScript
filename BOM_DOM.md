@@ -77,7 +77,7 @@
 Question： 区别以上clientX， pageX， screenX 等
 
 
-## 键盘和文本事件（49）
+## 键盘和文本事件
 - keydown, keypress, keyup
 - 事件触发顺序： keydown -> keypress - keyup
 - keydown和keyup都是通过事件对象的keyCode获取按下键的字符编码. keypress是通过事件对象的charCode来获取按下键的字符码
@@ -101,6 +101,6 @@ Question： 区别以上clientX， pageX， screenX 等
    - deep：两个值：true 或者 false， true完全复制，false部分复制
 - 创建节点：（`document.createElement`,`document.createAttribute`, `document.createComment`, `document.createTextNode`）
 
-## 元素样式操作（61）
+## 元素样式操作
 - 内联样式 （`Element.style` ,  `Element.style.cssText`, `Element.className`, `Element.setAttribute`）
 - 样式表操作 （动态添加样式表）
