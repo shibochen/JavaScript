@@ -41,7 +41,7 @@ Quantity {n}
 -* 星号表示某个模式出现0次或多次，等同于{0,}。
 -+ 加号表示某个模式出现1次或多次，等同于{1,}。
 
-Reference:
+## Reference:
 - [The Modern JavaScript Tutorial](https://javascript.info/).
 - [JavaScript Standards Reference Guide](http://javascript.ruanyifeng.com/).
 - [MDN web docs: Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
