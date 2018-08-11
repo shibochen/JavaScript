@@ -6,3 +6,4 @@
   - 注释：在 CSS 定义中，a:active 必须位于 a:hover 之后，这样才能生效！
 
 - css继承性和层叠性
+- css sprite
