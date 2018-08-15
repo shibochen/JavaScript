@@ -11,8 +11,8 @@ Boolean conversion rules:
 
 ## `var` variable
 1. `var` has no block scope: variables either function-wide or global, they are visible through blocks;
-2. if a code block is inside a function, then `var` become function-level variable.
-3. variable declarations are processed at funciton start, but assignments are not.
+2. If a code block is inside a function, then `var` become function-level variable.
+3. Variable declarations are processed at funciton start, but assignments are not.
 
 
 # global object
@@ -35,7 +35,7 @@ new Function('a', 'b', 'return a + b'); // basic syntax
 new Function('a,b', 'return a + b'); // comma-separated
 new Function('a , b', 'return a + b'); // comma-separated with spaces
 ```
-3. a function is created using `new Function`, its `[[Environment]]` references not the current Lexical Environment, but instead the global one.
+3. A function is created using `new Function`, its `[[Environment]]` references not the current Lexical Environment, but instead the global one.
 
 ## Scheduling: setTimeout and setInterval
 1. Methods `setInterval(func, delay, ...args)` and `setTimeout(func, delay, ...args)` allow to run the func regularly/once after `delay` milliseconds.
