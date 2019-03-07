@@ -74,9 +74,6 @@
 - 屏幕坐标： screenX， screenY
 - offestX 和 offsetY 是相对于事件源对象的内边距内测的距离 （不太理解）
 
-Question： 区别以上clientX， pageX， screenX 等
-
-
 ## 键盘和文本事件
 - keydown, keypress, keyup
 - 事件触发顺序： keydown -> keypress - keyup
