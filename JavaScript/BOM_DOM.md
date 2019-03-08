@@ -17,7 +17,7 @@
 ## HTMLCollection元素对象（接口）
 - 元素的动态集合，提供用来从该集合中选择元素的方法和属性。当其所包含的文档结构发生改变时，它会自动更新，不是真正的数组，是伪数组。
 - 常用属性 (`HTMLCollection.length`)
-- 常用方法 （`HTMLCollection.item()`, `HTMLCollection.namedItem()`, Array.prototype.slice.call(c)）
+- 常用方法 （`HTMLCollection.item()`, `HTMLCollection.namedItem()`, `Array.prototype.slice.call(c)`）
 
 ## NodeList对象节点集合
 - NodeList对象是一个节点的集合, 伪数组
